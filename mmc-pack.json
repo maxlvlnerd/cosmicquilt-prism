@@ -9,15 +9,24 @@
         },
         {
             "cachedName": "Cosmic Loader",
+            "cachedRequires": [
+                {
+                    "uid": "net.fabricmc.fabric-loader"
+                }
+            ],
             "cachedVersion": "1.0.1",
             "uid": "cosmicloader",
             "version": "1.0.1"
         },
         {
+            "dependencyOnly": true,
+            "uid": "net.fabricmc.intermediary"
+        },
+        {
             "cachedName": "Fabric Loader",
             "cachedRequires": [
                 {
-                    "uid": "cosmicloader"
+                    "uid": "net.fabricmc.intermediary"
                 }
             ],
             "cachedVersion": "0.15.7",
