@@ -9,7 +9,12 @@ This is a small project so that you can run [Cosmic Reach](https://finalforeach.
 2. Import it into prism
 3. Run!
 
-## Note:
+## TODO
+
+- [ ] Impliment support for the [Cosmic Launcher](https://github.com/Y2Kwastaken/CosmicLoader)
+- [ ] Write a script to download the Cosmic jar rather than storing it in this git repo
+
+## Note
 
 Currently this contains the build of Cosmic Reach over in the `libaries/cosmicreach-<version>.jar`.\
 This jar is by FinalForEach, and all of that is owned by FinalForEach, not by me!
