@@ -1,0 +1,18 @@
+{
+    "formatVersion": 1,
+    "name": "Cosmic Loader",
+    "uid": "cosmicloader",
+    "version": "1.0.1",
+    "minecraftArguments": "",
+    "+traits": [
+        "noapplet"
+    ],
+    "mainJar": {
+        "MMC-displayname": "Cosmic Loader-1.0.1",
+        "MMC-hint": "local",
+        "name": "custom:cosmicloader:1.0.1"
+    },
+    "compatibleJavaMajors": [
+        17
+    ]
+}

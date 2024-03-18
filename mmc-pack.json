@@ -6,6 +6,23 @@
             "important": true,
             "uid": "finalforeach.cosmicreach",
             "version": "0.1.8"
+        },
+        {
+            "cachedName": "Cosmic Loader",
+            "cachedVersion": "1.0.1",
+            "uid": "cosmicloader",
+            "version": "1.0.1"
+        },
+        {
+            "cachedName": "Fabric Loader",
+            "cachedRequires": [
+                {
+                    "uid": "cosmicloader"
+                }
+            ],
+            "cachedVersion": "0.15.7",
+            "uid": "net.fabricmc.fabric-loader",
+            "version": "0.15.7"
         }
     ],
     "formatVersion": 1
