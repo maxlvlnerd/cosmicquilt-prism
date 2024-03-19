@@ -8,31 +8,31 @@
             "version": "0.1.9"
         },
         {
-            "cachedName": "Cosmic Loader",
+            "cachedName": "Cosmic Quilt Loader",
             "cachedRequires": [
                 {
-                    "uid": "net.fabricmc.fabric-loader"
+                    "uid": "org.quiltmc.quilt-loader"
                 }
             ],
-            "cachedVersion": "1.0.1",
-            "uid": "cosmicloader",
-            "version": "1.0.1"
+            "cachedVersion": "1.0.0",
+            "uid": "com.coolgi.cosmicquilt",
+            "version": "1.0.0"
         },
         {
-            "cachedName": "Fabric Intermediary",
-            "dependencyOnly": true,
-            "uid": "net.fabricmc.intermediary"
-        },
-        {
-            "cachedName": "Fabric Loader",
+            "cachedName": "Quilt Loader",
             "cachedRequires": [
                 {
                     "uid": "net.fabricmc.intermediary"
                 }
             ],
-            "cachedVersion": "0.15.7",
-            "uid": "net.fabricmc.fabric-loader",
-            "version": "0.15.7"
+            "cachedVersion": "0.24.0",
+            "uid": "org.quiltmc.quilt-loader",
+            "version": "0.24.0"
+        },
+        {
+            "cachedName": "Fabric Intermediary (EMPTY)",
+            "dependencyOnly": true,
+            "uid": "net.fabricmc.intermediary"
         }
     ],
     "formatVersion": 1

@@ -1,0 +1,30 @@
+{
+    "formatVersion": 1,
+    "libraries": [
+        {
+            "name": "com.google.code.gson:gson:2.8.7",
+            "url": "https://repo1.maven.org/maven2/"
+        },
+        {
+            "name": "com.google.guava:guava:21.0",
+            "url": "https://maven.fabricmc.net/"
+        },
+        {
+            "name": "io.github.llamalad7:mixinextras-fabric:0.3.5",
+            "url": "https://maven.fabricmc.net/"
+        }
+    ],
+    "mainJar": {
+        "MMC-displayname": "Cosmic Quilt Loader-1.0.0",
+        "MMC-hint": "local",
+        "name": "custom:cosmicquilt:1.0.0"
+    },
+    "name": "Cosmic Quilt Loader",
+    "requires": [
+        {
+            "uid": "org.quiltmc.quilt-loader"
+        }
+    ],
+    "uid": "com.coolgi.cosmicquilt",
+    "version": "1.0.0"
+}
