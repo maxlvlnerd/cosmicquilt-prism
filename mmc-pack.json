@@ -2,10 +2,10 @@
     "components": [
         {
             "cachedName": "Cosmic Reach",
-            "cachedVersion": "0.1.8",
+            "cachedVersion": "0.1.9",
             "important": true,
             "uid": "finalforeach.cosmicreach",
-            "version": "0.1.8"
+            "version": "0.1.9"
         },
         {
             "cachedName": "Cosmic Loader",
@@ -19,6 +19,7 @@
             "version": "1.0.1"
         },
         {
+            "cachedName": "Fabric Intermediary",
             "dependencyOnly": true,
             "uid": "net.fabricmc.intermediary"
         },
