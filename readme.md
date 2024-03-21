@@ -16,9 +16,9 @@ This is a small project so that you can run [Cosmic Reach](https://finalforeach.
 2. Update the version number of stuff in both the `mmc-pack.json`, and version in the Cosmic Reach patch at `patches/finalforeach.cosmicreach.json`
 
 ### Cosmic Quilt
-1. Compile [Cosmic Quilt](thttps://codeberg.org/CRModders/cosmic-quilt) (instructions over in the readme)
-2. Copy the built jar from `build/libs/*.jar` to the `libaries` folder (making sure to use the correct naming scheme)
-3. Update the version number of stuff in both the `mmc-pack.json`, and version in the Cosmic Quilt patch at `patches/org.coolcosmos.cosmicquilt.json`
+1. Edit the patch at `patches/org.coolcosmos.cosmicquilt.json`
+2. Update the version number in both the root of the json, and in the location of the first library
+3. Edit the version number in the base `mmc-pack.json`
 
 
 ## Note

@@ -2,11 +2,19 @@
     "formatVersion": 1,
     "libraries": [
         {
+            "name": "org.codeberg.CRModders:cosmic-quilt:1.1.1",
+            "url": "https://jitpack.io"
+        },
+        {
             "name": "org.slf4j:slf4j-api:2.0.10",
             "url": "https://repo.spongepowered.org/maven/"
         },
         {
             "name": "org.slf4j:slf4j-jdk14:2.0.10",
+            "url": "https://repo.spongepowered.org/maven/"
+        },
+        {
+            "name": "uk.org.lidalia:sysout-over-slf4j:1.0.2",
             "url": "https://repo.spongepowered.org/maven/"
         },
         {
@@ -18,11 +26,6 @@
             "url": "https://repo.spongepowered.org/maven/"
         }
     ],
-    "mainJar": {
-        "MMC-displayname": "Cosmic Quilt Loader - 1.1.0",
-        "MMC-hint": "local",
-        "name": "custom:cosmicquilt:1.1.0"
-    },
     "name": "Cosmic Quilt Loader",
     "requires": [
         {
@@ -30,5 +33,5 @@
         }
     ],
     "uid": "org.coolcosmos.cosmicquilt",
-    "version": "1.1.0"
+    "version": "1.1.1"
 }
