@@ -2,10 +2,10 @@
     "components": [
         {
             "cachedName": "Cosmic Reach",
-            "cachedVersion": "0.1.9",
+            "cachedVersion": "0.1.11",
             "important": true,
             "uid": "finalforeach.cosmicreach",
-            "version": "0.1.9"
+            "version": "0.1.11"
         },
         {
             "cachedName": "Cosmic Quilt Loader",
