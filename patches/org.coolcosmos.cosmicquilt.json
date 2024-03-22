@@ -2,7 +2,7 @@
     "formatVersion": 1,
     "libraries": [
         {
-            "name": "org.codeberg.CRModders:cosmic-quilt:1.1.1",
+            "name": "org.codeberg.CRModders:cosmic-quilt:1.1.2",
             "url": "https://jitpack.io"
         },
         {
@@ -33,5 +33,5 @@
         }
     ],
     "uid": "org.coolcosmos.cosmicquilt",
-    "version": "1.1.1"
+    "version": "1.1.2"
 }
