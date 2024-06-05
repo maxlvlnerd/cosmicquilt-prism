@@ -8,7 +8,6 @@
   ],
   "libraries": {{ quilt_libraries | json_encode() }},
   "name": "Cosmic Quilt Loader",
-  "requires": [],
   "uid": "org.codeberg.CRModders.cosmic-quilt",
   "version": "{{ quilt_version }}"
 }
