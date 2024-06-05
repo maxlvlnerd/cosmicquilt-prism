@@ -6,7 +6,7 @@
     "-Dloader.gameJarPath=../../../libraries/custom/cosmicreach/{{ cr_version }}/cosmicreach-{{ cr_version }}.jar",
     "-Dcosmicquilt.colorizeLogs=false"
   ],
-  "libraries": {{ quilt_libraries }},
+  "libraries": {{ quilt_libraries | json_encode() }},
   "name": "Cosmic Quilt Loader",
   "requires": [],
   "uid": "org.codeberg.CRModders.cosmic-quilt",

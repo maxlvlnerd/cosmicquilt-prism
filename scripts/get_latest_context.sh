@@ -19,6 +19,6 @@ quilt_libraries="$(source ./fetch_dependencies.sh "org.codeberg.CRModders:cosmic
 
 jq -n --arg cr_version "$latest_cosmic" \
 	--arg quilt_version "$latest_quilt" \
-	--arg quilt_libraries "$quilt_libraries" \
+	--argjson quilt_libraries "$quilt_libraries" \
 	--arg cr_jar_url "$cr_jar_url" \
 	'{$cr_version,$quilt_version,$cr_jar_url,$quilt_libraries}'
