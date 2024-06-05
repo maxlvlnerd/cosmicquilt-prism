@@ -6,8 +6,5 @@
   "mainJar": {
     "MMC-absoluteUrl": "{{ cr_jar_url }}",
     "name": "custom:cosmicreach:{{ cr_version }}"
-  },
-  "compatibleJavaMajors": [
-    17
-  ]
+  }
 }
