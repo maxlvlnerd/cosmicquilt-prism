@@ -4,7 +4,7 @@ on:
     branches:
       - main
 jobs:
-  minimal:
+  package:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -12,5 +12,5 @@ jobs:
       - run: nix build
       - uses: actions/upload-artifact@v4
         with:
-          name: instance
+          name: Cosmic Reach
           path: result/
