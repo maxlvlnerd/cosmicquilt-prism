@@ -2,16 +2,15 @@
     "formatVersion": 1,
     "name": "Cosmic Reach",
     "uid": "finalforeach.cosmicreach",
-    "version": "0.1.20",
+    "version": "0.1.36",
     "minecraftArguments": "",
     "+traits": [
         "noapplet"
     ],
-    "mainClass": "finalforeach.cosmicreach.lwjgl3.Lwjgl3Launcher",
     "mainJar": {
-        "MMC-displayname": "Cosmic Reach-0.1.20",
-        "MMC-hint": "local",
-        "name": "custom:cosmicreach:0.1.20"
+        "MMC-displayname": "Cosmic Reach-0.1.36",
+        "MMC-absoluteUrl": "https://raw.githubusercontent.com/CRModders/CosmicArchive/main/Cosmic%20Reach-0.1.36.jar",
+        "name": "custom:cosmicreach:0.1.36"
     },
     "compatibleJavaMajors": [
         17

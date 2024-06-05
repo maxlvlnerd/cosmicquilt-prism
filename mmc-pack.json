@@ -1,38 +1,13 @@
 {
     "components": [
         {
-            "cachedName": "Cosmic Reach",
-            "cachedVersion": "0.1.20",
             "important": true,
             "uid": "finalforeach.cosmicreach",
             "version": "0.1.20"
         },
         {
-            "cachedName": "Cosmic Quilt Loader",
-            "cachedRequires": [
-                {
-                    "uid": "org.quiltmc.quilt-loader"
-                }
-            ],
-            "cachedVersion": "1.2.7",
-            "uid": "org.coolcosmos.cosmicquilt",
-            "version": "1.2.7"
-        },
-        {
-            "cachedName": "Quilt Loader",
-            "cachedRequires": [
-                {
-                    "uid": "net.fabricmc.intermediary"
-                }
-            ],
-            "cachedVersion": "0.24.0",
-            "uid": "org.quiltmc.quilt-loader",
-            "version": "0.24.0"
-        },
-        {
-            "cachedName": "Fabric Intermediary (EMPTY)",
-            "dependencyOnly": true,
-            "uid": "net.fabricmc.intermediary"
+            "uid": "org.codeberg.CRModders.cosmic-quilt",
+            "version": "2.1.1"
         }
     ],
     "formatVersion": 1
