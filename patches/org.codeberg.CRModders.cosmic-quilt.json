@@ -115,6 +115,6 @@
     "name": "Cosmic Quilt Loader",
     "requires": [
     ],
-    "uid": "org.coolcosmos.cosmicquilt",
+    "uid": "org.codeberg.CRModders.cosmic-quilt",
     "version": "2.1.1"
 }
