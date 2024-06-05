@@ -1,0 +1,13 @@
+name: Examples
+on: push
+jobs:
+  minimal:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: nixbuild/nix-quick-install-action@v28
+      - run: nix build
+      - uses: actions/upload-artifact@v4
+        with:
+          name: artifact
+          path: result/
