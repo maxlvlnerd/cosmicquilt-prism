@@ -1,18 +1,18 @@
 {
-    "formatVersion": 1,
-    "name": "Cosmic Reach",
-    "uid": "finalforeach.cosmicreach",
-    "version": "0.1.36",
-    "minecraftArguments": "",
-    "+traits": [
-        "noapplet"
-    ],
-    "mainJar": {
-        "MMC-displayname": "Cosmic Reach-0.1.36",
-        "MMC-absoluteUrl": "https://raw.githubusercontent.com/CRModders/CosmicArchive/main/Cosmic%20Reach-0.1.36.jar",
-        "name": "custom:cosmicreach:0.1.36"
-    },
-    "compatibleJavaMajors": [
-        17
-    ]
+  "formatVersion": 1,
+  "name": "Cosmic Reach",
+  "uid": "finalforeach.cosmicreach",
+  "version": "0.1.36",
+  "minecraftArguments": "",
+  "+traits": [
+    "noapplet"
+  ],
+  "mainJar": {
+    "MMC-displayname": "Cosmic Reach-0.1.36",
+    "MMC-absoluteUrl": "https://raw.githubusercontent.com/CRModders/CosmicArchive/main/Cosmic%20Reach-0.1.36.jar",
+    "name": "custom:cosmicreach:0.1.36"
+  },
+  "compatibleJavaMajors": [
+    17
+  ]
 }
