@@ -1,29 +1,20 @@
-# Cosmic Reach on Prism
+# PrismLauncher CosmicQuilt
+A PrismLauncher instance for running Cosmic Reach
 
-This is a small project so that you can run [Cosmic Reach](https://finalforeach.itch.io/cosmic-reach) over on [Prism Launcher](https://prismlauncher.org/) using mod loaders such as [Cosmic Quilt](https://codeberg.org/CRModders/cosmic-quilt) (which allows you to run the [Quilt Loader](https://quiltmc.org/) on Cosmic Reach)
+## Usage
+- Head over to the [Actions](https://github.com/maxlvlnerd/cosmicquilt-prism/actions) tab
+- Download the Cosmic Reach artifact from the latest workflow run
+- in PrismLauncher click the Add Instancte button on the top right
+- click Import and select the downloaded zip (change instance name if needed)
+- click Ok and you're done
 
+## Contributing
+Contributions are welcome
+Bug Reports, Bug fixes, Tests, Documentation, Code Changes, really anything is greatly appreciated
+I try my best to document my code and explain my choices but if anything is unclear feel free to ask questions
 
-## How to install
+### Notes
+To update the version of Cosmic Quilt and Cosmic Reach, use the script [./scripts/get_latest_context.sh](./scripts/get_latest_context.sh) to automatically fetch the latest version of cr & cq aswell as the MMC libraries for cq.
 
-1. Download the zip of this project
-2. Import it into prism
-3. Profit
+see [./flake.nix](./flake.nix) for how to build the prism instance (Note: nix build does not package the rendered templates into a zip like the github artifacts)
 
-## How to update
-
-### Cosmic Reach
-1. Update the Cosmic Reach jar from [Itch](https://finalforeach.itch.io/cosmic-reach) and place it in the `libaries` folder (making sure to use the correct naming scheme)
-2. Update the version number of stuff in both the `mmc-pack.json`, and version in the Cosmic Reach patch at `patches/finalforeach.cosmicreach.json`
-
-### Cosmic Quilt
-1. Edit the patch at `patches/org.coolcosmos.cosmicquilt.json`
-2. Update the version number in both the root of the json, and in the location of the first library
-3. Edit the version number in the base `mmc-pack.json`
-
-
-## Note
-
-Currently this contains the build of Cosmic Reach over in the `libaries/cosmicreach-<version>.jar`.\
-This jar is by FinalForEach, and all of that is owned by FinalForEach, not by me!
-
-Feel free to check the hash with the version on itch.io until I create a script to automatically generate the Prism Launcher instance straight from Itch
