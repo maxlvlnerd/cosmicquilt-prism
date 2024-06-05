@@ -17,9 +17,8 @@
           src = ./.;
         } ''
           bash $src/scripts/render.sh $src/templates/ ./rendered/ "$(cat $src/data.json)"
-          zip -r instance.zip ./rendered/
           mkdir $out
-          mv instance.zip $out/
+          cp ./rendered/* $out -r
         '';
     });
 }

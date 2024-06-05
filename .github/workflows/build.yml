@@ -13,4 +13,4 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: instance
-          path: result/instance.zip
+          path: result/
