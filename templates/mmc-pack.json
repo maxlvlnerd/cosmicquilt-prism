@@ -3,11 +3,11 @@
         {
             "important": true,
             "uid": "finalforeach.cosmicreach",
-            "version": "0.1.36"
+            "version": "{{ cr_version }}"
         },
         {
             "uid": "org.codeberg.CRModders.cosmic-quilt",
-            "version": "2.1.1"
+            "version": "{{ quilt_version }}"
         }
     ],
     "formatVersion": 1

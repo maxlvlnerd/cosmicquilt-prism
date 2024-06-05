@@ -1,0 +1,14 @@
+{
+  "formatVersion": 1,
+  "mainClass": "org.quiltmc.loader.impl.launch.knot.KnotClient",
+  "+jvmArgs": [
+    "-Dloader.skipMcProvider=true",
+    "-Dloader.gameJarPath=../../../libraries/custom/cosmicreach/{{ cr_version }}/cosmicreach-{{ cr_version }}.jar",
+    "-Dcosmicquilt.colorizeLogs=false"
+  ],
+  "libraries": {{ quilt_libraries }},
+  "name": "Cosmic Quilt Loader",
+  "requires": [],
+  "uid": "org.codeberg.CRModders.cosmic-quilt",
+  "version": "{{ quilt_version }}"
+}

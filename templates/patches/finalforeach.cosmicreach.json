@@ -1,0 +1,18 @@
+{
+  "formatVersion": 1,
+  "name": "Cosmic Reach",
+  "uid": "finalforeach.cosmicreach",
+  "version": "{{ cr_version }}",
+  "minecraftArguments": "",
+  "+traits": [
+    "noapplet"
+  ],
+  "mainJar": {
+    "MMC-displayname": "Cosmic Reach-{{ cr_version }}",
+    "MMC-absoluteUrl": "{{ cr_jar_url }}",
+    "name": "custom:cosmicreach:{{ cr_version }}"
+  },
+  "compatibleJavaMajors": [
+    17
+  ]
+}
