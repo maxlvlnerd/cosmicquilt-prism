@@ -13,8 +13,12 @@ cr_jar_url="$(echo "$versions" | jq -r --arg latest "$latest_cosmic" '.versions[
 
 # should work quite well but only results in taged releases being used
 latest_quilt="$(curl -s "https://codeberg.org/api/v1/repos/CRModders/cosmic-quilt/releases/latest" | jq -r '.tag_name')"
+
 # ./fetch_dependencies.sh could fail if a dependency isnt found in
-# the list of maven repositories it uses in the script
+# the list of maven repositories it uses in the script.
+
+# dont really like the fact that doing it this way means you have
+# to cd into the folder with fetch_dependencies.sh in it
 quilt_libraries="$(source ./fetch_dependencies.sh "org.codeberg.CRModders:cosmic-quilt:$latest_quilt" | jq -s .)"
 
 jq -n --arg cr_version "$latest_cosmic" \

@@ -1,10 +1,10 @@
 #!/bin/bash
-# Usage <Templates Directory> <Output Directory> <Context>
-# <Templates Directory> - this and subfolders get all files passed in them through tera-cli using <Context> and are output to <Output Directory>
-# <JSON Context> - a JSON string passed to tera-cli # See https://github.com/chevdor/tera-cli
-set -eou pipefail
+
 # uses tera-cli to render all the templates out
-# the result ends up in "./rendered"
+# Usage <Templates Directory> <Output Directory> <Context>
+# <Templates Directory> - this and its subfolders have all files in them passed rendered through tera-cli using <Context> and get output to <Output Directory>
+# <Context> - a JSON object passed to tera-cli # See https://github.com/chevdor/tera-cli
+set -eou pipefail
 
 template_dir="$1"
 output_dir="$2"
