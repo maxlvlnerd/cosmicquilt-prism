@@ -10,7 +10,8 @@ jobs:
       - uses: actions/checkout@v4
       - uses: nixbuild/nix-quick-install-action@v28
       - run: nix build
+      - run: echo "CR_VERSION=$(jq -r '.cr_version' data.json)" >> "$GITHUB_ENV"
       - uses: actions/upload-artifact@v4
         with:
-          name: Cosmic Reach
+          name: Cosmic Reach ${{ env.CR_VERSION }}
           path: result/
