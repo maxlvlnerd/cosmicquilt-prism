@@ -3,7 +3,7 @@
   "mainClass": "org.quiltmc.loader.impl.launch.knot.KnotClient",
   "+jvmArgs": [
     "-Dloader.skipMcProvider=true",
-    "-Dloader.gameJarPath=../../../libraries/custom/cosmicreach/{{ cr_version }}/cosmicreach-{{ cr_version }}.jar",
+    "-Dloader.gameJarPath=../../../libraries/finalforeach/cosmicreach/{{ cr_version }}/cosmicreach-{{ cr_version }}.jar",
     "-Dcosmicquilt.colorizeLogs=false"
   ],
   "libraries": {{ quilt_libraries | json_encode() }},
