@@ -5,6 +5,6 @@
   "version": "{{ cr_version }}",
   "mainJar": {
     "MMC-absoluteUrl": "{{ cr_jar_url }}",
-    "name": "custom:cosmicreach:{{ cr_version }}"
+    "name": "finalforeach:cosmicreach:{{ cr_version }}"
   }
 }
