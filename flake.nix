@@ -13,7 +13,7 @@
     flake-utils.lib.eachDefaultSystem (system: {
       packages.default = with (import nixpkgs {inherit system;});
         runCommand "cosmicreach-prism-instance" {
-          buildInputs = [bash zip coursier jq tera-cli];
+          buildInputs = [bash coursier jq tera-cli];
           src = ./.;
         } ''
           bash $src/scripts/render.sh $src/templates/ ./rendered/ "$(cat $src/data.json)"
